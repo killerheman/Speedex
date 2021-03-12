@@ -1,0 +1,274 @@
+body
+{
+	background-image:linear-gradient(71deg, rgba(55, 55, 55, 0.03) 0%, rgba(55, 55, 55, 0.03) 16.667%,rgba(111, 111, 111, 0.03) 16.667%, rgba(111, 111, 111, 0.03) 33.334%,rgba(230, 230, 230, 0.03) 33.334%, rgba(230, 230, 230, 0.03) 50.001000000000005%,rgba(129, 129, 129, 0.03) 50.001%, rgba(129, 129, 129, 0.03) 66.668%,rgba(77, 77, 77, 0.03) 66.668%, rgba(77, 77, 77, 0.03) 83.33500000000001%,rgba(190, 190, 190, 0.03) 83.335%, rgba(190, 190, 190, 0.03) 100.002%),linear-gradient(281deg, rgba(176, 176, 176, 0.03) 0%, rgba(176, 176, 176, 0.03) 16.667%,rgba(192, 192, 192, 0.03) 16.667%, rgba(192, 192, 192, 0.03) 33.334%,rgba(74, 74, 74, 0.03) 33.334%, rgba(74, 74, 74, 0.03) 50.001000000000005%,rgba(169, 169, 169, 0.03) 50.001%, rgba(169, 169, 169, 0.03) 66.668%,rgba(34, 34, 34, 0.03) 66.668%, rgba(34, 34, 34, 0.03) 83.33500000000001%,rgba(5, 5, 5, 0.03) 83.335%, rgba(5, 5, 5, 0.03) 100.002%),linear-gradient(196deg, rgba(98, 98, 98, 0.03) 0%, rgba(98, 98, 98, 0.03) 16.667%,rgba(208, 208, 208, 0.03) 16.667%, rgba(208, 208, 208, 0.03) 33.334%,rgba(63, 63, 63, 0.03) 33.334%, rgba(63, 63, 63, 0.03) 50.001000000000005%,rgba(180, 180, 180, 0.03) 50.001%, rgba(180, 180, 180, 0.03) 66.668%,rgba(200, 200, 200, 0.03) 66.668%, rgba(200, 200, 200, 0.03) 83.33500000000001%,rgba(59, 59, 59, 0.03) 83.335%, rgba(59, 59, 59, 0.03) 100.002%),linear-gradient(35deg, rgba(233, 233, 233, 0.03) 0%, rgba(233, 233, 233, 0.03) 16.667%,rgba(26, 26, 26, 0.03) 16.667%, rgba(26, 26, 26, 0.03) 33.334%,rgba(186, 186, 186, 0.03) 33.334%, rgba(186, 186, 186, 0.03) 50.001000000000005%,rgba(162, 162, 162, 0.03) 50.001%, rgba(162, 162, 162, 0.03) 66.668%,rgba(254, 254, 254, 0.03) 66.668%, rgba(254, 254, 254, 0.03) 83.33500000000001%,rgba(245, 245, 245, 0.03) 83.335%, rgba(245, 245, 245, 0.03) 100.002%),linear-gradient(294deg, rgba(157, 157, 157, 0.01) 0%, rgba(157, 157, 157, 0.01) 12.5%,rgba(125, 125, 125, 0.01) 12.5%, rgba(125, 125, 125, 0.01) 25%,rgba(120, 120, 120, 0.01) 25%, rgba(120, 120, 120, 0.01) 37.5%,rgba(19, 19, 19, 0.01) 37.5%, rgba(19, 19, 19, 0.01) 50%,rgba(111, 111, 111, 0.01) 50%, rgba(111, 111, 111, 0.01) 62.5%,rgba(140, 140, 140, 0.01) 62.5%, rgba(140, 140, 140, 0.01) 75%,rgba(114, 114, 114, 0.01) 75%, rgba(114, 114, 114, 0.01) 87.5%,rgba(94, 94, 94, 0.01) 87.5%, rgba(94, 94, 94, 0.01) 100%),linear-gradient(19deg, rgba(217, 217, 217, 0.02) 0%, rgba(217, 217, 217, 0.02) 20%,rgba(105, 105, 105, 0.02) 20%, rgba(105, 105, 105, 0.02) 40%,rgba(252, 252, 252, 0.02) 40%, rgba(252, 252, 252, 0.02) 60%,rgba(1, 1, 1, 0.02) 60%, rgba(1, 1, 1, 0.02) 80%,rgba(232, 232, 232, 0.02) 80%, rgba(232, 232, 232, 0.02) 100%),linear-gradient(90deg, rgb(22, 94, 235),rgb(126, 195, 9));
+}
+#outer
+{
+    height:auto;
+    width:1200px;
+    margin:30px auto;
+//	background-color:yellow;
+}
+#header
+{
+    height:150px;
+    width:1200px;
+//  background-color:orange;
+    border-radius:10px 0px 0px 0px;
+}
+#circle
+{
+	height:100px;
+	width:100px;
+	background-color:#4285F4;
+	border:2px solid;
+	border-radius:100px;
+	margin-left:250px;
+	margin-top:-50px;
+	
+}
+#logo
+{
+	
+	height:150px;
+	width:150px;
+//	background-color:orange;
+	float:left;
+}
+#pt
+{
+	height:150px;
+	width:1050px;
+	background-image:linear-gradient(to left, rgba(245,102,0,1), rgba(245,102,0,0));
+	float:left;
+	border-radius:0px 25px 0px 0px;
+}
+#menu
+{
+    width:1200px;
+    height:50px;
+    background-color:#f56600;
+    font-weight:bold;
+}
+#menu ul
+{
+	list-style-type:none;
+}
+#menu ul li
+{
+	display:inline-block;
+	width:135px;
+	font-size:20px;
+    text-align:center;
+    padding:11px;
+    margin-top:3px;
+    border-right:2px solid;	
+}
+#menu ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+#menu ul li:hover
+{
+	background-color:#9933CC;
+	border-radius:5px;
+	font-size:19px;
+}
+#slider
+{
+height:350px;
+width:1200px;
+background-size:cover;	
+}
+#main
+{
+	height:620px;
+	width:1200px;
+	background:white;
+}
+#lmain
+{
+	height:620px;
+	width:800px;
+	background-color:white;
+    float:left;
+}
+#rmain
+{
+	height:620px;
+	width:400px;
+	background-color:white;
+	float:right;
+	
+}
+.mainc
+{
+	height:250px;
+	width:330px;
+	//border:1px solid;
+	margin-left:40px;
+	margin-top:10px;
+	float:left;
+	padding:5px;
+}
+.mainf1
+{
+	height:250px;
+	width:330px;
+	margin-left:25px;
+	margin-top:18px;
+	border:1px solid;
+	
+}
+.mainf2
+{
+	height:250px;
+	width:330px;
+	margin-left:25px;
+	margin-top:10px;
+	padding:5px;
+//	border:2px solid;
+}
+.mainf3
+{
+	height:190px;
+	width:330px;
+	margin-left:25px;
+	margin-top:10px;
+	padding:5px;
+//	border:1px solid;
+}
+.inner
+{
+	height:35px;
+	width:330px;
+	background-color:rgba(245,102,0,0.6);
+	margin-top:210px;
+}
+.inner1
+{
+	height:35px;
+	width:330px;
+	background-color:rgba(245,102,0,0.6);
+	margin-top:160px;
+}
+
+.mainpic
+{
+	height:150px;
+	width:320px;
+	border:1px solid;
+	margin-top:5px;
+}
+#footer
+{
+	height:210px;
+	width:1200px;
+}
+#lfooter
+{
+	height:200px;
+	width:400px;
+	background-color:orange;
+	float:left;
+	border-radius:0px 0px 0px 15px;
+}
+#mfooter
+{
+	height:200px;
+	width:400px;
+	background-color:orange;
+	float:left;
+}
+#mfooter a img:hover
+{
+	opacity:0.8;
+}
+#rfooter
+{
+	height:200px;
+	width:400px;
+	background-color:orange;
+	float:left;
+	border-radius:0px 0px 15px 0px;
+	margin-top:-23px;
+}
+input[type=text],input[type=number],input[type=email],input[type=password]
+{
+	width:300px;
+	height:30px;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:8px 0;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	font-size:18px;
+}
+input[type=email]:focus
+{
+	border-color:#ff8500;
+	box-shadow:0 0 8px 0 #ff8500;
+}
+input[type=text]:focus
+{
+	border-color:#ff8500;
+	box-shadow:0 0 5px 0 #ff8500;
+}
+input[type=number]:focus
+{
+	border-color:#ff8500;
+	box-shadow:0 0 5px 0 #ff8500;
+}
+input[type=password]:focus
+{
+	border-color:#ff8500;
+	box-shadow:0 0 5px 0 #ff8500;
+}
+
+input[type=submit],input[type=reset]
+{
+	height:35px;
+	width:130px;
+	color:white;
+	background-color:#ff4444;
+	font-size:20px;
+	border-radius:10px;
+	border:none;
+	font-family:Arial;
+}
+input[type=submit]:hover
+{
+	background-image:linear-gradient(#76ff03,#ef6c00);
+	
+}
+input[type=reset]:hover
+{
+	background-image:linear-gradient(#76ff03,#ef6c00);
+	
+}
+textarea
+{
+	width:300px;
+	height:100px;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:8px 0;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	resize:none;
+	font-size:18px;
+    font-family:Arial;
+}
+textarea:focus
+{
+	border-color:#ff8500;
+	box-shadow:0 0 5px 0 #ff8500;
+}
+
+
+
+
+
